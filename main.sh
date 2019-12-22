@@ -1,2 +1,3 @@
 echo Hello World
-gcc -o echo echo.c
+gcc -o shout shout.c
+gcc -o qsort qsort.c
