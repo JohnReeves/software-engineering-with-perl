@@ -1,0 +1,31 @@
+main (int argc, char * * argv)
+{
+  char * iftmp.0;
+  int D.2259;
+
+  {
+    goto <D.2252>;
+    <D.2251>:
+    if (argc > 1) goto <D.2256>; else goto <D.2257>;
+    <D.2256>:
+    iftmp.0 = " ";
+    goto <D.2258>;
+    <D.2257>:
+    iftmp.0 = "";
+    <D.2258>:
+    argv = argv + 8;
+    _1 = *argv;
+    printf ("%s%s", _1, iftmp.0);
+    <D.2252>:
+    argc = argc + -1;
+    if (argc > 0) goto <D.2251>; else goto <D.2253>;
+    <D.2253>:
+    __builtin_putchar (10);
+    D.2259 = 0;
+    return D.2259;
+  }
+  D.2259 = 0;
+  return D.2259;
+}
+
+
